@@ -1,0 +1,159 @@
+  640  curl -fsSL https://raw.githubusercontent.com/GetPerspectdev/setup/main/tva.sh | sh -s 29eefb89-0aeb-4eae-90fb-d2f07cf4caff
+  734  git --version
+  735  git --version
+  736  git config --global user.name "Dallin Draper"
+  737  git config --global user.email dallind34@gmail.com
+  738  git config -- global init.defaultBranch main
+  739  git config -- global init.defaultBranch main
+  740  git config -- global init.defaultBranch main
+  741  git init
+  742  git config -- global init.defaultBranch main
+  743  git config --global init.defaultBranch main\n
+  744  git config --global user.email dallind34@gmail.com
+  745  rm -rf .git\n
+  747  git --version
+  748  git status
+  749  git config --global user.name "Dallin Draper"
+  750  git config --global user.email dallind34@gmail.com
+  751  git config --global core.editor "code --wait"
+  752  git config --global init.defaultBranch main
+  761  git init
+  775  mikdir git-practice-dallind34
+  776  mkdir git-practice-dallind34
+  778  cd git-practice-dallind34
+  780  git init
+  791  cd git-practice-dallind34
+  795  cd git-practice-dallind34
+  799  git status
+  800  git add file1.txt
+  802  git status
+  803  git add .
+  804  git status
+  805  git status
+  806  git log
+  807  git commit
+  808  git log
+  809  git status
+  810  git commit -m hello
+  811  git log
+  812  git commit -m 'gitignore'
+  814  git status
+  817  git commit -m 'Add gitignore quote>'
+  820  touch .gitignore
+  824  git add .
+  825  git commit -m 'Add gitignore'
+  826  git remote add origin git@github.com:dallind34/git-practice-dallind34.git
+  827  git -u
+  828  git -h
+  829  git --help
+  834  cd git-practice-dallind34
+  841  git status
+  842  git rm file1.txt
+  843  git rm file2.txt
+  844  git status
+  845  git commit -m "create new files"
+  846  git status
+  847  git add
+  848  git add .
+  849  git status
+  850  git commit -m "create new files"
+  851  git status
+  852  git log
+  856  git add file_1.txt
+  857  git commit file_1.txt
+  858  git commit file_1.txt
+  859  git commit file_1.txt -m "commit file 1"
+  860  git status
+  862  git add file_2.txt
+  863  git status
+  864  git commit file_2.txt -m "commit file 2"
+  865  git status
+  866  git log
+  871  git status
+  872  git add Readme.md
+  873  git commit Readme.md -m "Readme file"
+  874  git status
+  878  git rm --cached api-keys.txt
+  880  git status
+  881  add .gitignore
+  882  git add .gitignore
+  883  git status
+  884  git commit . -m "ignore api"
+  885  git status
+  886  git ls
+  888  git branch features
+  889  git checkout features
+  891  git add new_features.txt
+  892  git status
+  893  git commit -m "add empty file"
+  897  git status
+  898  git commit -m "added to features file"
+  899  git add .
+  900  git commit -m "added to features file"
+  901  git status
+  903  git checkout main
+  904  git commit -m "text in file 1"
+  905  git add .
+  906  git commit -m "text in file 1"
+  907  git log
+  909  git merge features
+  910  git commit -m "merge main and features"
+  912  git log
+  914  cd git-practice-dallind34
+  917  git add new_features.txt
+  918  git status
+  919  git commit -m "changed features"
+  920  git checkout features
+  921  git add .
+  922  git commit -m "this file has some new text"
+  923  git checkout main
+  924  git merge features
+  925  git add .
+  926  git status
+  927  git commit -m "resloved confilict"
+  930  git checkout main\n
+  931  git branch -d features\n
+  932  git remote add origin git@github.com:dallind34/git-practice-dallind34.git
+  937  cd git-practice-dallind34
+  938  git remote add origin git@github.com:dallind34/git-practice-dallind34.git
+  939  git push -u origin main
+  976  git clone git@github.com:esnt/stat386-blog-theme.git
+  978  git init
+  980  git remote -v\n
+  981  git remote set-url origingit@github.com:dallind34/Data-Science-Blog.git
+  983  git add .
+  984  git status
+  985  git commit stat386-blog-theme -m "add blog theme"
+  986  git push origin main\n
+  987  git remote add origin git@github.com:dallind34/Data-Science-Blog.git\ngit branch -M main\ngit push -u origin main
+  988  git push origin main\n
+  990  git add stat386-blog-theme
+  991  git status
+  992  git push origin main\n
+  993  git commit stat386-blog-theme
+  994  git commit stat386-blog-theme
+  996  git branch
+  998  git add .
+  999  git commit -m "Initial commit of stat386-blog-theme"\n
+ 1000  git push git@github.com:dallind34/Data-Science-Blog.git main\n
+ 1003  git add stat386-blog-theme/*\n
+ 1004  rm -rf .git\n
+ 1005  git status
+ 1006  git clone git@github.com:esnt/stat386-blog-theme.git\n
+ 1008  git remote remove origin\n
+ 1009  git remote add origin git@github.com:dallind34/Data-Science-Blog.git\n
+ 1010  git add .\n
+ 1011  git commit -m "Add stat386-blog-theme to Data Science Blog"\n
+ 1012  git push origin main\n
+ 1013  git pull origin main --allow-unrelated-histories\n
+ 1016  cd git-practice-dallind34
+ 1019  git clone git@github.com:dallind34/git-practice-eladle21.git
+ 1020  cd git-practice-eladle21
+ 1021  git checkout -b feature-DallinDraper
+ 1026  git add .
+ 1027  git commit -m "left a comment in file 2"
+ 1028  git push origin feature-DallinDraper
+ 1029  git pull\n
+ 1030  git branch --set-upstream-to=origin/feature-DallinDraper feature-DallinDraper\n
+ 1031  git pull
+ 1032  git log --oneline > gitlog.txt\n
